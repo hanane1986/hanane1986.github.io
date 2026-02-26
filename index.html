@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio -Hanane Labed</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #1e1e1e;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    header p {
+      margin-top: 10px;
+      color: #ccc;
+    }
+
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+nav a:hover {
+  color: #00bcd4;
+}
+    section {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .project {
+      background: #fafafa;
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
+<div class="project">
+  <h3>Portfolio Website</h3>
+  <p>
+    Portfolio website ontwikkeld met HTML en CSS, inclusief responsive design.<br>
+    <a href="https://github.com/hanane1986" target="_blank">Bekijk code</a>
+  </p>
+</div>
+.project {
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: transform 0.2s;
+}
+
+.project:hover {
+  transform: scale(1.03);
+}
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e1e1e;
+      color: white;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .projects {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Hanane labed</h1>
+  <p>Gemotiveerde IT starter | Op zoek naar BBL Software Developer plek</p>
+</header>
+
+<nav>
+  <a href="#over">Over mij</a>
+  <a href="#projecten">Projecten</a> 
+ <a href="#contact">Contact</a>
+</nav>
+
+<section id="over">
+  <div class="card">
+    <h2>Over mij</h2>
+    <p>
+Ik ben een gemotiveerde en leergierige starter in de IT en op zoek naar een BBL plek als software developer.
+Momenteel ontwikkel ik mijn vaardigheden in HTML, CSS en JavaScript door zelfstandig projecten te bouwen.
+Ik ben klaar om mezelf verder te ontwikkelen binnen een professioneel team.
+</p>
+<p><strong>Skills:</strong> HTML, CSS, JavaScript (basis)</p>
+  </div>
+</section>
+
+<section id="projecten">
+  <div class="card">
+    <h2>Mijn projecten</h2>
+
+    <div class="projects">
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>Portfolio website ontwikkeld met HTML en CSS, inclusief responsive design.</p>
+      </div>
+
+      <div class="project">
+        <h3>To-do App (komt nog)</h3>
+        <p>Een app om taken bij te houden met JavaScript.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <div class="card">
+    <h2>Contact</h2>
+    <p>Email: hanane614@gmail.com</p>
+<p>GitHub: <a href="https://github.com/hanane1986" target="_blank">Mijn GitHub</a></p>
+<p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 - hanane labed</p>
+</footer>
+<sript src="script.js"></script>
+
+</body>
+</html>
